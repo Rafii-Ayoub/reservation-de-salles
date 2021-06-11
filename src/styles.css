@@ -1,0 +1,184 @@
+.log_in {
+    margin: 0;
+    padding: 0;
+    height: 120vh;
+    font-family: sans-serif;
+    background: #ffffff;
+}
+#particles-js{
+    height: 100%;
+    background: #ffffff;
+}
+.logo {
+    width: 200px;
+    height: 200px;
+    margin-left: 40px;
+}
+.box{
+    width: 500px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform:  translate(-50%,-50%);
+    background: #ffffff;
+    text-align: center;
+    border: 2px solid #005480;
+    border-radius: 24px;  
+}
+.box h1{
+    color: #807f7f;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.box input[type="text"],.box input[type="password"]{
+    border: 0;
+    background: none;
+    display:  block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition:0.25s;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+}
+.box input[type="submit"]{
+    border: 0;
+    background: none;
+    display:  block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: #807f7f;
+    border-radius: 24px;
+    transition:0.25s;
+    cursor: pointer;
+}
+.box input[type="submit"]:hover{
+    background: #2ecc71;
+}
+.acceuil{
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+}
+.bienvenu{
+   padding-left: 10%;
+   padding-right: 10%;
+   margin: 20px;
+   color: #004a81;
+   font-family: Calibri (Corps);
+   font-size: 30px;
+}
+.acceuil a {
+   text-decoration: none;
+}
+.lien {  
+   width: 320px;
+   height: 15px;
+   color: #000000;
+}
+.lien:hover{
+   height: 20px;
+   color: #004a81;
+   font-size: 20px;
+   background-color: rgba(255,255,255,0.2);
+}
+.container{
+   position: relative;
+   width: 1200px;
+   height: 350px;
+   margin: 100px auto;
+}
+.container .choix{
+   position: relative;
+   width: calc(400px - 30px);
+   height: calc(350px - 30px);
+   background: #000;
+   float: left;
+   margin: 15px;
+   box-sizing: border-box;
+   overflow: hidden;
+   border-radius: 10px;
+}
+.container .choix .icon{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: #f00;
+   transition: 0.5s;
+   z-index: 1;
+}
+.container .choix:hover .icon{
+   top: 20px;
+   left: calc(50% - 40px);
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+}
+.container .choix .icon .fa{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   font-size: 80px;
+   transition: 0.5s;
+   color: #fff;
+}
+.container .choix:hover .icon .fa{
+   font-size: 40px;
+}
+.container .choix .content{
+   position: absolute;
+   top: 100%;
+   height: calc(100% - 100px);
+   text-align: center;
+   padding: 20px;
+   box-sizing: border-box;
+   transition: 0.5s;
+   opacity: 0;
+}
+.container .choix:hover .content{
+   top: 100px;
+   opacity: 1;
+}
+.container .choix .content h3{
+   margin: 0 0 10px;
+   padding: 0;
+   color: #fff;
+   font-size: 24px;
+}
+.container .choix .content p{
+   margin: 0;
+   padding: 0;
+   color: #fff;
+}
+.container .choix:nth-child(1) .icon{
+   background: #f3b60f;
+}
+.container .choix:nth-child(1){
+   background: #f8c948;
+}
+.container .choix:nth-child(2) .icon{
+   background: #888375;
+}
+.container .choix:nth-child(2){
+   background: #aaa597;
+}
+.container .choix:nth-child(3) .icon{
+   background: #48ff17;
+}
+.container .choix:nth-child(3){
+   background: #87fb67;
+}
